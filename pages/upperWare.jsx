@@ -5,11 +5,11 @@ import React from 'react';
 const upperWare = () => {
   return (
     <div>
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font p-[10px]">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <Link href={'/product/BagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer border hover:ring-1 m-7 rounded">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
@@ -30,7 +30,7 @@ const upperWare = () => {
               </div>
             </Link>
             <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer border hover:ring-1 m-7 rounded">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
@@ -51,7 +51,7 @@ const upperWare = () => {
               </div>
             </Link>
             <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer border hover:ring-1 m-7 rounded">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
@@ -72,7 +72,7 @@ const upperWare = () => {
               </div>
             </Link>
             <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer border hover:ring-1 m-7 rounded">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
@@ -93,7 +93,7 @@ const upperWare = () => {
               </div>
             </Link>
             <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer border hover:ring-1 m-7 rounded">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
@@ -114,7 +114,7 @@ const upperWare = () => {
               </div>
             </Link>
             <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer border hover:ring-1 m-7 rounded">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
@@ -135,7 +135,7 @@ const upperWare = () => {
               </div>
             </Link>
             <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer border hover:ring-1 m-7 rounded">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
@@ -156,7 +156,7 @@ const upperWare = () => {
               </div>
             </Link>
             <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer border hover:ring-1 m-7 rounded">
+              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
