@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaShoppingCart } from 'react-icons/fa';
+import { AiOutlineShopping, AiOutlineClose } from 'react-icons/ai';
 
 const Navbar = () => {
+  const toggleCart = () => {
+    if (ref.current.classList.contains('translate-x-full')) {
+      ref.current.classList.remove('translate-x-full');
+      ref.current.classList.add('translate-x-0');
+    } else if (!ref.current.classList.contains('translate-x-full')) {
+      ref.current.classList.remove('translate-x-0');
+      ref.current.classList.add('translate-x-full');
+    }
+  };
+
+  const ref = useRef();
+
   return (
     <div className="flex shadow-md flex-col md:flex-row md:justify-start justify-center items-center bg-[#f7eee798]">
       <div
@@ -45,9 +58,21 @@ const Navbar = () => {
           </Link>
         </ul>
       </div>
-
-      <div className="cart absolute right-0 mx-5 top-7">
+      <div onClick={toggleCart} className="cart absolute right-0 mx-5 top-7">
         <FaShoppingCart className="text-2xl md:text-3xl cursor-pointer" />
+      </div>
+
+      {/* SideBar */}
+
+      <div
+        ref={ref}
+        className="sideCart absolute top-0 p-10 right-0 bg-pink-100 flex transition-transform  translate-x-full transform"
+      >
+        <AiOutlineShopping className="mt-[4px] mr-[3px] text-xl" />
+        <h2 className="font-bold text-xl">Shopping Cart</h2>
+        <span onClick={toggleCart} className="absolute top-4 right-3">
+          <AiOutlineClose className=" font-bold cursor-pointer text-xl text-black" />
+        </span>
       </div>
     </div>
   );
