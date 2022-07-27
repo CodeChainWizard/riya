@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import { MdOutlineAddShoppingCart } from 'react-icons/md';
 import { FiMapPin } from 'react-icons/fi';
 import { useState } from 'react';
+import { RiCheckDoubleFill } from 'react-icons/ri';
 
 const Post = () => {
   const router = useRouter();
@@ -39,10 +40,10 @@ const Post = () => {
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
-                BRAND NAME
+                Gucci
               </h2>
               <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
-                The Catcher in the Rye
+                T-shirt (SM/White)
               </h1>
               <div className="flex mb-4">
                 <span className="flex items-center">
@@ -187,9 +188,13 @@ const Post = () => {
                   ₹1599.00
                 </span>
 
-                <button className="flex ml-16 text-white bg-indigo-500 duration-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded">
+                <button className="flex ml-[20px] md:ml-[35px] text-white bg-indigo-500 duration-500 border-0 py-2 px-1 md:px-5 focus:outline-none hover:bg-pink-600 rounded">
                   <MdOutlineAddShoppingCart className="text-lg mt-[3px] mr-[5px]" />
                   Add To Cart
+                </button>
+                <button className="flex ml-[20px] md:ml-[10px] text-white bg-indigo-500 duration-500 border-0 py-2 px-1 md:px-6 focus:outline-none hover:bg-pink-600 rounded">
+                  <RiCheckDoubleFill className="text-lg mt-[3px] mr-[5px]" />
+                  Buy Now
                 </button>
               </div>
 
