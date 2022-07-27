@@ -6,7 +6,14 @@ import { FiMapPin } from 'react-icons/fi';
 import { useState } from 'react';
 import { RiCheckDoubleFill } from 'react-icons/ri';
 
-const Post = () => {
+const Post = ({
+  cart,
+  addtocart,
+  removecart,
+  clearCart,
+  saveCart,
+  subtotal,
+}) => {
   const router = useRouter();
   const { slug } = router.query;
 
@@ -188,7 +195,19 @@ const Post = () => {
                   ₹1599.00
                 </span>
 
-                <button className="flex ml-[20px] md:ml-[35px] text-white bg-indigo-500 duration-500 border-0 py-2 px-1 md:px-5 focus:outline-none hover:bg-pink-600 rounded">
+                <button
+                  onClick={() => {
+                    addtocart(
+                      slug,
+                      1,
+                      1500,
+                      't-shits(SM, White)',
+                      'SM',
+                      'white'
+                    );
+                  }}
+                  className="flex ml-[20px] md:ml-[35px] text-white bg-indigo-500 duration-500 border-0 py-2 px-1 md:px-5 focus:outline-none hover:bg-pink-600 rounded"
+                >
                   <MdOutlineAddShoppingCart className="text-lg mt-[3px] mr-[5px]" />
                   Add To Cart
                 </button>

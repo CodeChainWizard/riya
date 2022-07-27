@@ -11,7 +11,14 @@ import {
 } from 'react-icons/ai';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
 
-const Navbar = () => {
+const Navbar = ({
+  cart,
+  addtocart,
+  removecart,
+  clearCart,
+  saveCart,
+  subtotal,
+}) => {
   const toggleCart = () => {
     if (ref.current.classList.contains('translate-x-full')) {
       ref.current.classList.remove('translate-x-full');
@@ -87,16 +94,49 @@ const Navbar = () => {
         </span>
 
         <ol className="list-decimal ml-[20px] font-thin mb-[20px]">
-          <li>
-            <div className="item flex mb-[20px]">
-              <div className="w-2/3 ">GucciBags - Used the Bag</div>
-              <div className="w-1/3 flex items-center font-semibold justify-center">
-                <AiOutlineMinusCircle className="mx-1 text-lg cursor-pointer" />{' '}
-                1{' '}
-                <AiOutlinePlusCircle className="mx-1 text-lg cursor-pointer" />
-              </div>
+          {Object.keys(cart).length == 0 && (
+            <div className="text-center font-medium text-sm text-red-600">
+              No Item in Your Cart.
             </div>
-          </li>
+          )}
+          {Object.keys(cart).map((k) => {
+            return (
+              <li key={k}>
+                <div className="item flex mb-[20px]">
+                  <div className="w-2/3 ">{cart[k].name}</div>
+                  <div className="w-1/3 flex items-center font-semibold justify-center">
+                    <AiOutlineMinusCircle
+                      onClick={() => {
+                        removecart(
+                          k,
+                          1,
+                          cart[k].price,
+                          cart[k].name,
+                          cart[k].size,
+                          cart[k].variant
+                        );
+                      }}
+                      className="mx-1 text-lg cursor-pointer"
+                    />
+                    {cart[k].qty}
+                    <AiOutlinePlusCircle
+                      onClick={() => {
+                        addtocart(
+                          k,
+                          1,
+                          cart[k].price,
+                          cart[k].name,
+                          cart[k].size,
+                          cart[k].variant
+                        );
+                      }}
+                      className="mx-1 text-lg cursor-pointer"
+                    />
+                  </div>
+                </div>
+              </li>
+            );
+          })}
         </ol>
 
         <div className="w-full flex -ml-[15px] mt-[20px]">
@@ -106,7 +146,10 @@ const Navbar = () => {
               CheckOut
             </button>
           </Link>
-          <button className="flex mx-auto text-white bg-blue-400 border py-2 px-6 focus:outline-none hover:bg-pink-500 hover:duration-500  rounded text-sm">
+          <button
+            onClick={clearCart}
+            className="flex mx-auto text-white bg-blue-400 border py-2 px-6 focus:outline-none hover:bg-pink-500 hover:duration-500  rounded text-sm"
+          >
             <AiOutlineClear className="mt-[2px] mr-[4px] text-base" />
             ClearCart
           </button>
