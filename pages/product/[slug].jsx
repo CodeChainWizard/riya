@@ -211,12 +211,12 @@ const Post = () => {
                 </button>
               </div>
               {!services && services != null && (
-                <div className="text-red-300">
+                <div className="text-red-500 mt-[7px] -mb-[31px]">
                   Sorry! We do not deliver to this pincode.
                 </div>
               )}
               {services && services != null && (
-                <div className="text-green-300">
+                <div className="text-green-500 mt-[7px] -mb-[31px]">
                   We deliver to this pincode.
                 </div>
               )}
