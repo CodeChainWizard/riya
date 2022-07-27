@@ -37,12 +37,12 @@ const Post = ({
 
   return (
     <>
-      <section className="text-gray-600 body-font overflow-hidden -ml-[20%]">
+      <section className="text-gray-600 body-font overflow-hidden ml-[5%] md:-ml-[23%]">
         <div className="container py-7 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <img
               alt="ecommerce"
-              className="lg:w-1/2 lg:h-[10%] h-[10%] object-top p-[100px] -mt-[7%] rounded"
+              className="lg:w-1/2 h-[74%] object-top rounded"
               src="https://m.media-amazon.com/images/I/619SqQW1NYL._UY741_.jpg"
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
@@ -206,12 +206,12 @@ const Post = ({
                       'white'
                     );
                   }}
-                  className="flex ml-[20px] md:ml-[35px] text-white bg-indigo-500 duration-500 border-0 py-2 px-1 md:px-5 focus:outline-none hover:bg-pink-600 rounded"
+                  className="flex ml-[5%] md:ml-[7%] p-1 pl-2 text-white bg-indigo-500 duration-500 border-0 focus:outline-none hover:bg-pink-600 rounded"
                 >
                   <MdOutlineAddShoppingCart className="text-lg mt-[3px] mr-[5px]" />
                   Add To Cart
                 </button>
-                <button className="flex ml-[20px] md:ml-[10px] text-white bg-indigo-500 duration-500 border-0 py-2 px-1 md:px-6 focus:outline-none hover:bg-pink-600 rounded">
+                <button className="flex ml-[5%] md:ml-[7%] p-1 pl-3  text-white bg-indigo-500 duration-500 border-0 focus:outline-none hover:bg-pink-600 rounded">
                   <RiCheckDoubleFill className="text-lg mt-[3px] mr-[5px]" />
                   Buy Now
                 </button>

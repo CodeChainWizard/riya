@@ -10,6 +10,7 @@ import {
   AiOutlineClear,
 } from 'react-icons/ai';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
+import { VscAccount } from 'react-icons/vsc';
 
 const Navbar = ({
   cart,
@@ -72,8 +73,14 @@ const Navbar = ({
           </Link>
         </ul>
       </div>
-      <div onClick={toggleCart} className="cart absolute right-0 mx-5 top-7">
-        <FaShoppingCart className="text-2xl md:text-3xl cursor-pointer" />
+      <div className="cart absolute right-0 mx-5 top-7 flex">
+        <Link href={'/login'}>
+          <VscAccount className="text-2xl md:text-3xl cursor-pointer mx-2" />
+        </Link>
+        <FaShoppingCart
+          onClick={toggleCart}
+          className="text-2xl md:text-3xl cursor-pointer"
+        />
       </div>
 
       {/* SideBar */}

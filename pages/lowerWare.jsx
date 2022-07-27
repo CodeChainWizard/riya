@@ -6,15 +6,15 @@ const LowerWare = () => {
   return (
     <div>
       <section className="text-gray-600 body-font">
-        <div className="container px-3 py-10 mx-auto">
-          <div className="flex flex-wrap -ml-[20px] justify-center">
-            <Link href={'/product/BagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap -m-4 justify-center cursor-pointer">
+            <Link href={'/product/bags'}>
+              <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:ring-1 rounded-lg">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
-                    className="m-auto md:mx-0 h-[30vh] md:h-[30vh] block hover:scale-110 hover:duration-700 ease-in-out"
-                    src="https://m.media-amazon.com/images/I/61lorxi9W3L._UY741_.jpg"
+                    className="md:h-[30vh] h-[45vh] m-auto md:m-0 block hover:scale-110 duration-700"
+                    src="https://m.media-amazon.com/images/I/612W+csN+WL._UX679_.jpg"
                   />
                 </a>
                 <div className="mt-4 text-center md:text-left">
@@ -22,20 +22,19 @@ const LowerWare = () => {
                     Upper-Ware
                   </h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">
-                    T-Shirt
+                    T-shirt
                   </h2>
-                  <p className="mt-1">₹999.00</p>
-                  <p className="mt-1">S, M, L, XL, XXL</p>
+                  <p className="mt-1">$16.00</p>
                 </div>
               </div>
             </Link>
-            <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
+            <Link href={'/product/bags'}>
+              <div className="lg:w-1/4 md:w-1/2 p-4 w-full  hover:ring-1 rounded-lg">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
-                    className="m-auto md:mx-0 h-[30vh] md:h-[30vh] block hover:scale-110 hover:duration-700 ease-in-out "
-                    src="https://m.media-amazon.com/images/I/61lorxi9W3L._UY741_.jpg"
+                    className="md:h-[30vh] h-[45vh] m-auto md:m-0 block hover:scale-110 duration-700"
+                    src="https://m.media-amazon.com/images/I/612W+csN+WL._UX679_.jpg"
                   />
                 </a>
                 <div className="mt-4 text-center md:text-left">
@@ -43,20 +42,19 @@ const LowerWare = () => {
                     Upper-Ware
                   </h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">
-                    T-Shirt
+                    T-shirt
                   </h2>
-                  <p className="mt-1">₹999.00</p>
-                  <p className="mt-1">S, M, L, XL, XXL</p>
+                  <p className="mt-1">$16.00</p>
                 </div>
               </div>
             </Link>
-            <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
+            <Link href={'/product/bags'}>
+              <div className="lg:w-1/4 md:w-1/2 p-4 w-full  hover:ring-1 rounded-lg">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
-                    className="m-auto md:mx-0 h-[30vh] md:h-[30vh] block hover:scale-110 hover:duration-700 ease-in-out "
-                    src="https://m.media-amazon.com/images/I/61lorxi9W3L._UY741_.jpg"
+                    className="md:h-[30vh] h-[45vh] m-auto md:m-0 block hover:scale-110 duration-700"
+                    src="https://m.media-amazon.com/images/I/612W+csN+WL._UX679_.jpg"
                   />
                 </a>
                 <div className="mt-4 text-center md:text-left">
@@ -64,20 +62,19 @@ const LowerWare = () => {
                     Upper-Ware
                   </h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">
-                    T-Shirt
+                    T-shirt
                   </h2>
-                  <p className="mt-1">₹999.00</p>
-                  <p className="mt-1">S, M, L, XL, XXL</p>
+                  <p className="mt-1">$16.00</p>
                 </div>
               </div>
             </Link>
-            <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
+            <Link href={'/product/bags'}>
+              <div className="lg:w-1/4 md:w-1/2 p-4 w-full  hover:ring-1 rounded-lg">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
-                    className="m-auto md:mx-0 h-[30vh] md:h-[30vh] block hover:scale-110 hover:duration-700 ease-in-out "
-                    src="https://m.media-amazon.com/images/I/61lorxi9W3L._UY741_.jpg"
+                    className="md:h-[30vh] h-[45vh] m-auto md:m-0 block hover:scale-110 duration-700"
+                    src="https://m.media-amazon.com/images/I/612W+csN+WL._UX679_.jpg"
                   />
                 </a>
                 <div className="mt-4 text-center md:text-left">
@@ -85,20 +82,19 @@ const LowerWare = () => {
                     Upper-Ware
                   </h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">
-                    T-Shirt
+                    T-shirt
                   </h2>
-                  <p className="mt-1">₹999.00</p>
-                  <p className="mt-1">S, M, L, XL, XXL</p>
+                  <p className="mt-1">$16.00</p>
                 </div>
               </div>
             </Link>
-            <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
+            <Link href={'/product/bags'}>
+              <div className="lg:w-1/4 md:w-1/2 p-4 w-full  hover:ring-1 rounded-lg">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
-                    className="m-auto md:mx-0 h-[30vh] md:h-[30vh] block hover:scale-110 hover:duration-700 ease-in-out "
-                    src="https://m.media-amazon.com/images/I/61lorxi9W3L._UY741_.jpg"
+                    className="md:h-[30vh] h-[45vh] m-auto md:m-0 block hover:scale-110 duration-700"
+                    src="https://m.media-amazon.com/images/I/612W+csN+WL._UX679_.jpg"
                   />
                 </a>
                 <div className="mt-4 text-center md:text-left">
@@ -106,20 +102,19 @@ const LowerWare = () => {
                     Upper-Ware
                   </h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">
-                    T-Shirt
+                    T-shirt
                   </h2>
-                  <p className="mt-1">₹999.00</p>
-                  <p className="mt-1">S, M, L, XL, XXL</p>
+                  <p className="mt-1">$16.00</p>
                 </div>
               </div>
             </Link>
-            <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
+            <Link href={'/product/bags'}>
+              <div className="lg:w-1/4 md:w-1/2 p-4 w-full  hover:ring-1 rounded-lg">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
-                    className="m-auto md:mx-0 h-[30vh] md:h-[30vh] block hover:scale-110 hover:duration-700 ease-in-out "
-                    src="https://m.media-amazon.com/images/I/61lorxi9W3L._UY741_.jpg"
+                    className="md:h-[30vh] h-[45vh] m-auto md:m-0 block hover:scale-110 duration-700"
+                    src="https://m.media-amazon.com/images/I/612W+csN+WL._UX679_.jpg"
                   />
                 </a>
                 <div className="mt-4 text-center md:text-left">
@@ -127,20 +122,19 @@ const LowerWare = () => {
                     Upper-Ware
                   </h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">
-                    T-Shirt
+                    T-shirt
                   </h2>
-                  <p className="mt-1">₹999.00</p>
-                  <p className="mt-1">S, M, L, XL, XXL</p>
+                  <p className="mt-1">$16.00</p>
                 </div>
               </div>
             </Link>
-            <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
+            <Link href={'/product/bags'}>
+              <div className="lg:w-1/4 md:w-1/2 p-4 w-full  hover:ring-1 rounded-lg">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
-                    className="m-auto md:mx-0 h-[30vh] md:h-[30vh] block hover:scale-110 hover:duration-700 ease-in-out "
-                    src="https://m.media-amazon.com/images/I/61lorxi9W3L._UY741_.jpg"
+                    className="md:h-[30vh] h-[45vh] m-auto md:m-0 block hover:scale-110 duration-700"
+                    src="https://m.media-amazon.com/images/I/612W+csN+WL._UX679_.jpg"
                   />
                 </a>
                 <div className="mt-4 text-center md:text-left">
@@ -148,20 +142,19 @@ const LowerWare = () => {
                     Upper-Ware
                   </h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">
-                    T-Shirt
+                    T-shirt
                   </h2>
-                  <p className="mt-1">₹999.00</p>
-                  <p className="mt-1">S, M, L, XL, XXL</p>
+                  <p className="mt-1">$16.00</p>
                 </div>
               </div>
             </Link>
-            <Link href={'/procuct/bagBar'}>
-              <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg border-spacing-0 hover:ring-1 m-7 rounded">
+            <Link href={'/product/bags'}>
+              <div className="lg:w-1/4 md:w-1/2 p-4 w-full  hover:ring-1 rounded-lg">
                 <a className="block relative rounded overflow-hidden ">
                   <img
                     alt="ecommerce"
-                    className="m-auto md:mx-0 h-[30vh] md:h-[30vh] block hover:scale-110 hover:duration-700 ease-in-out "
-                    src="https://m.media-amazon.com/images/I/61lorxi9W3L._UY741_.jpg"
+                    className="md:h-[30vh] h-[45vh] m-auto md:m-0 block hover:scale-110 duration-700"
+                    src="https://m.media-amazon.com/images/I/612W+csN+WL._UX679_.jpg"
                   />
                 </a>
                 <div className="mt-4 text-center md:text-left">
@@ -169,10 +162,9 @@ const LowerWare = () => {
                     Upper-Ware
                   </h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">
-                    T-Shirt
+                    T-shirt
                   </h2>
-                  <p className="mt-1">₹999.00</p>
-                  <p className="mt-1">S, M, L, XL, XXL</p>
+                  <p className="mt-1">$16.00</p>
                 </div>
               </div>
             </Link>
