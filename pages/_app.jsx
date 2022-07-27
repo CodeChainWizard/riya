@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }) {
     try {
       if (cart) {
         setcart(JSON.parse(cart));
+        saveCart(JSON.parse(cart));
       }
     } catch (error) {
       console.log(error);
@@ -68,6 +69,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Navbar
+        key={subtotal}
         cart={cart}
         addtocart={addtocart}
         removecart={removecart}

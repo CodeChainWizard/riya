@@ -6,8 +6,8 @@ const Shose = () => {
   return (
     <div>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap -m-4">
+        <div className="container px-3 py-10 mx-auto">
+          <div className="flex flex-wrap -ml-[20px] justify-center">
             <Link href={'/product/BagBar'}>
               <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer border-spacing-0 hover:ring-1 shadow-lg  m-7 rounded">
                 <a className="block relative rounded overflow-hidden ">

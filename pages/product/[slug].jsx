@@ -37,13 +37,13 @@ const Post = ({
 
   return (
     <>
-      <section className="text-gray-600 body-font overflow-hidden">
-        <div className="container px-5 py-16 mx-auto">
+      <section className="text-gray-600 body-font overflow-hidden -ml-[20%]">
+        <div className="container py-7 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
             <img
               alt="ecommerce"
-              className="lg:w-1/2 w-full lg:h-auto px-16 object-cover object-top rounded"
-              src="https://m.media-amazon.com/images/I/71Q4GYiY63L._UX569_.jpg"
+              className="lg:w-1/2 lg:h-[10%] h-[10%] object-top p-[100px] -mt-[7%] rounded"
+              src="https://m.media-amazon.com/images/I/619SqQW1NYL._UY741_.jpg"
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">

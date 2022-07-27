@@ -32,7 +32,7 @@ const Navbar = ({
   const ref = useRef();
 
   return (
-    <div className="sticky z-50 top-0 sm:sticky md:sticky flex shadow-md flex-col md:flex-row md:justify-start justify-center items-center bg-[#eee8e39c]">
+    <div className="sticky z-10 top-0 sm:sticky md:sticky flex shadow-md flex-col md:flex-row md:justify-start justify-center items-center bg-[#eee8e39c]">
       <div
         className="logo mx-[20px] md:width={100}
           md:height={100} cursor-pointer"
@@ -80,7 +80,11 @@ const Navbar = ({
 
       <div
         ref={ref}
-        className="w-72 rounded-md sideCart absolute top-0 right-0 px-8 py-10  bg-pink-100  transition-transform  translate-x-full transform"
+        className={`w-72 h-[100vh] rounded-md sideCart absolute top-0 right-0 px-8 py-10  bg-pink-100 transform  transition-transform ${
+          Object.keys(cart).length !== 0 ? 'translate-x-0' : 'translate-x-full'
+        }
+          
+        `}
       >
         <h2 className="font-bold text-xl text-center flex mb-[15px]">
           <AiOutlineShopping className="mr-[10px] mt-[4px]" />
@@ -139,6 +143,7 @@ const Navbar = ({
           })}
         </ol>
 
+        <span className="subtotal">Your Total Price is:- ₹{subtotal}</span>
         <div className="w-full flex -ml-[15px] mt-[20px]">
           <Link href={'/checkout'}>
             <button className="flex text-white bg-blue-400 border py-2 px-5 mx-[10px] focus:outline-none hover:bg-pink-500 hover:duration-500 rounded text-sm">
