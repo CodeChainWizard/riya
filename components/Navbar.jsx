@@ -51,31 +51,53 @@ const Navbar = ({
 
       <div className="nav">
         <ul className="flex items-center space-x-4 font-bold text-[18px] md:text-[16px]">
-          <Link href={'/upperWare'}>
-            <a href="#">
-              <li>Upper-Ware</li>
+          <Link href={'/Hand-bags'}>
+            <a
+              href="#"
+              className="hover:text-pink-500 hover:underline-offset-4 duration-500 underline "
+            >
+              <li>Hand-Bags</li>
             </a>
           </Link>
-          <Link href={'/lowerWare'}>
-            <a href="#">
-              <li>Lower-Ware</li>
+          <Link href={'/Shoulder-bags'}>
+            <a
+              href="#"
+              className="hover:text-pink-500 hover:underline-offset-4 duration-500 underline "
+            >
+              <li>Shoulder-Bags</li>
             </a>
           </Link>
-          <Link href={'/watches'}>
-            <a href="#">
-              <li>Watchs</li>
+          <Link href={'/Sling-bags'}>
+            <a
+              href="#"
+              className="hover:text-pink-500 hover:underline-offset-4 duration-500 underline "
+            >
+              <li>Sling-Bags</li>
             </a>
           </Link>
-          <Link href={'/shose'}>
-            <a href="#">
-              <li>Shoes</li>
+          <Link href={'/ToteBages-Wallets'}>
+            <a
+              href="#"
+              className="hover:text-pink-500 hover:underline-offset-4 duration-500 underline "
+            >
+              <li>ToteBages-Wallets</li>
+            </a>
+          </Link>
+          <Link href={'/Waist-bags'}>
+            <a
+              href="#"
+              className="hover:text-pink-500 hover:underline-offset-4 duration-500 underline "
+            >
+              <li>Waist-bags</li>
             </a>
           </Link>
         </ul>
       </div>
       <div className="cart absolute right-0 mx-5 top-7 flex">
         <Link href={'/login'}>
-          <VscAccount className="text-2xl md:text-3xl cursor-pointer mx-2" />
+          <a>
+            <VscAccount className="text-2xl md:text-3xl cursor-pointer mx-2" />
+          </a>
         </Link>
         <FaShoppingCart
           onClick={toggleCart}
