@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Signup = () => {
+const forgotpassword = () => {
   return (
     <div>
       <section className="h-full gradient-form bg-gray-200 md:h-screen">
@@ -24,31 +24,16 @@ const Signup = () => {
                         </h4>
                       </div>
                       <form>
-                        <p className="mb-4">Please to your account</p>
+                        <p className="mb-4">Forgot your Password</p>
                         <div className="mb-4">
                           <input
                             type="email"
                             className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                             id="email"
-                            placeholder="User Email"
+                            placeholder="Enter Your Email"
                           />
                         </div>
-                        <div className="mb-4">
-                          <input
-                            type="name"
-                            className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                            id="name"
-                            placeholder="Username"
-                          />
-                        </div>
-                        <div className="mb-4">
-                          <input
-                            type="password"
-                            className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                            id="password"
-                            placeholder="Password"
-                          />
-                        </div>
+
                         <div className="text-center pt-1 mb-12 pb-1">
                           <button
                             className="inline-block px-6 py-2.5 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3"
@@ -60,7 +45,7 @@ const Signup = () => {
                                 'linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593)',
                             }}
                           >
-                            Signup
+                            Continue
                           </button>
                         </div>
                         <div className="flex items-center justify-between pb-6">
@@ -118,4 +103,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default forgotpassword;
